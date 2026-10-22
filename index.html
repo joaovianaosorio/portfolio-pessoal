@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfólio Pessoal e Acadêmico de João — Estudante de Análise e Desenvolvimento de Sistemas no IFSP. Projetos web, competências técnicas e currículo PDF.">
+  <title>João | Portfólio Pessoal</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Design System Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span class="gradient-text">João Osório</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#hero" class="nav-link active">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#curriculo" class="nav-link">Currículo</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Alternar Modo Escuro/Claro">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Abrir Menu de Navegação">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         1. HERO SECTION
+         ========================================================================== -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <div class="hero-badge-tag">
+            <span class="pulse-dot"></span>
+            <span>Buscando Estágio em Tecnologia</span>
+          </div>
+
+          <h1 class="hero-title">
+            Olá, eu sou o <span class="gradient-text">João</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            Estudante de Análise e Desenvolvimento de Sistemas — IFSP
+          </h2>
+
+          <p class="hero-description">
+            Desenvolvedor e entusiasta de tecnologia apaixonado por construir soluções completas, desde a criação de interfaces modernas até a análise de dados e integração com Inteligência Artificial. Busco aplicar lógica de programação e novas tecnologias para gerar valor e acelerar resultados em equipes de TI.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="https://wa.me/5511995957707?text=Ol%C3%A1%20Jo%C3%A3o%2C%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade%20de%20est%C3%A1gio!"
+              target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+            </a>
+
+            <a href="assets/pdf/curriculo-joao-osorio.pdf" download="curriculo-joao-osorio.pdf" class="btn btn-primary">
+              <i class="fas fa-download"></i> Baixar Currículo PDF
+            </a>
+
+            <a href="#projetos" class="btn btn-secondary">
+              <i class="fas fa-code"></i> Ver Projetos
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper reveal reveal-delay-1">
+          <div class="hero-avatar-card">
+            <img src="assets/images/eu.jfif" alt="Foto de Perfil Profissional de João" class="hero-avatar-img">
+
+            <div class="hero-experience-card">
+              <div class="hero-experience-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="hero-experience-text">
+                <strong>ADS — IFSP</strong>
+                <span>Foco em Dev, Dados & IA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         2. SOBRE MIM & HOBBIES SECTION
+         ========================================================================== -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Apresentação & Trajetória</span>
+          <h2 class="section-title">Sobre Mim</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card reveal reveal-delay-1">
+            <h3 class="card-title">
+              <i class="fas fa-user-code"></i> Perfil Pessoal e Acadêmico
+            </h3>
+            <p>
+              Sou estudante de Análise e Desenvolvimento de Sistemas no Instituto Federal de São Paulo (IFSP). Tenho forte interesse no ecossistema de tecnologia, englobando desenvolvimento de software, análise de dados e aplicação prática de Inteligência Artificial.
+            </p>
+            <p>
+              Meu objetivo profissional é integrar uma equipe de Tecnologia como Estagiário, onde eu possa contribuir com código bem estruturado, mentalidade analítica e rápida capacidade de aprendizado em projetos do mundo real.
+            </p>
+          </div>
+
+          <div class="academic-card reveal reveal-delay-2">
+            <h3 class="card-title">
+              <i class="fas fa-university"></i> Formação Acadêmica
+            </h3>
+            <div class="academic-info">
+              <div class="academic-item">
+                <h4>Análise e Desenvolvimento de Sistemas</h4>
+                <p>IFSP — Instituto Federal de São Paulo</p>
+                <span class="academic-meta"><i class="fas fa-calendar-alt"></i> 2º Semestre | Previsão:
+                  Julho/2028</span>
+              </div>
+
+              <div class="academic-item">
+                <h4>Foco de Aprendizagem</h4>
+                <p>Desenvolvimento Web, Análise e Banco de Dados, Inteligência Artificial Aplicada e Engenharia de Software.</p>
+              </div>
+
+              <div class="academic-item">
+                <h4>Objetivo Profissional</h4>
+                <p>Obtenção de vaga de estágio na área de Tecnologia da Informação.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. SKILLS & COMPETÊNCIAS SECTION
+         ========================================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Conhecimentos Técnicos</span>
+          <h2 class="section-title">Habilidades & Ferramentas</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <i class="fab fa-js skill-icon" style="color: #f7df1e;"></i>
+            <h3 class="skill-name">JavaScript</h3>
+            <span class="skill-level">ES6+ / Vanilla JS</span>
+          </div>
+
+          <div class="skill-card reveal reveal-delay-1">
+            <i class="fab fa-html5 skill-icon" style="color: #e34f26;"></i>
+            <h3 class="skill-name">HTML5</h3>
+            <span class="skill-level">Semântico & SEO</span>
+          </div>
+
+          <div class="skill-card reveal reveal-delay-2">
+            <i class="fab fa-css3-alt skill-icon" style="color: #1572b6;"></i>
+            <h3 class="skill-name">CSS3</h3>
+            <span class="skill-level">Flexbox / Grid</span>
+          </div>
+
+          <div class="skill-card reveal reveal-delay-3">
+            <i class="fas fa-c skill-icon" style="color: #00599c;"></i>
+            <h3 class="skill-name">Linguagem C</h3>
+            <span class="skill-level">Estrutura de Dados</span>
+          </div>
+
+          <div class="skill-card reveal reveal-delay-3">
+            <i class="fa-brands fa-python skill-icon" style="color: #00599c;"></i>
+            <h3 class="skill-name">Python</h3>
+            <span class="skill-level">AUTOMAÇÃO & DADOS</span>
+          </div>
+
+          <div class="skill-card reveal reveal-delay-3">
+            <i class="fa-brands fa-php skill-icon" style="color: #777BB3;"></i>
+            <h3 class="skill-name">PHP</h3>
+            <span class="skill-level">CRUD & Servidor</span>
+          </div>
+
+          <div class="skill-card reveal reveal-delay-1">
+            <i class="fas fa-database skill-icon" style="color: #336791;"></i>
+            <h3 class="skill-name">SQL</h3>
+            <span class="skill-level">Modelagem & Consultas</span>
+          </div>
+
+          <div class="skill-card reveal">
+              <i class="fab fa-git-alt skill-icon" style="color: #f05032;"></i>
+              <h3 class="skill-name">Git & GitHub</h3>
+              <span class="skill-level">Controle de Versão</span>
+          </div>
+
+          <div class="skill-card reveal reveal-delay-2">
+            <i class="fa-solid fa-robot skill-icon" style="color: #8f969e;"></i>
+            <h3 class="skill-name">Soluções com IA</h3>
+            <span class="skill-level">PROMPT ENG. & VIBE CODING</span>
+          </div>
+
+          <div class="skill-card reveal reveal-delay-2">
+            <i class="fa-brands fa-microsoft skill-icon" style="color: #3b82f6;"></i>
+            <h3 class="skill-name">Power BI</h3>
+            <span class="skill-level">DASHBOARDS & ANALYTICS</span>
+          </div>
+
+          <div class="skill-card reveal reveal-delay-2">
+            <i class="fas fa-mobile-alt skill-icon" style="color: #3b82f6;"></i>
+            <h3 class="skill-name">Responsividade</h3>
+            <span class="skill-level">Mobile-First</span>
+          </div>
+
+          <div class="skill-card reveal reveal-delay-3">
+            <i class="fas fa-brain skill-icon" style="color: #8b5cf6;"></i>
+            <h3 class="skill-name">Lógica de Prog.</h3>
+            <span class="skill-level">Algoritmos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. GALERIA DE PROJETOS SECTION
+         ========================================================================== -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Portfólio Prático</span>
+          <h2 class="section-title">Galeria de Principais Projetos</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Projeto 1 -->
+          <article class="project-card reveal">
+            <div class="project-image-wrapper">
+              <img src="assets/images/projects/projeto-1.png" alt="Mockup do Projeto CloudScale Analytics Dashboard"
+                class="project-image">
+              <span class="project-status-badge concluido">Concluído</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Isso aqui é macaco!</h3>
+              <p class="project-description">
+                Aplicação web desenvolvida como Trabalho de Conclusão de Curso na ETEC, focada em divulgar informações
+                interativas, espécies e dados de conservação sobre primatas. Projeto voltado para a conscientização
+                ambiental através de uma interface intuitiva, responsiva e de navegação fluida.
+              </p>
+              <div class="project-techs">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">PHP</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/joaovianaosorio/isso-aqui-e-macaco" target="_blank"
+                  rel="noopener noreferrer" class="btn btn-secondary">
+                  <i class="fab fa-github"></i> Repositório
+                </a>
+                <a href="https://joaovianaosorio.github.io/isso-aqui-e-macaco/" target="_blank"
+                  rel="noopener noreferrer" class="btn btn-primary">
+                  <i class="fas fa-external-link-alt"></i> Deploy Ao Vivo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 2 -->
+          <article class="project-card reveal reveal-delay-1">
+            <div class="project-image-wrapper">
+              <img src="assets/images/projects/projeto-2.png" alt="Mockup do Projeto DevCode Workspace"
+                class="project-image">
+              <span class="project-status-badge concluido">Concluído</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Simulador de Juros</h3>
+              <p class="project-description">
+                Aplicação web interativa para cálculo e visualização do crescimento patrimonial. Permite simular
+                aportes, comparar rendimentos com indicadores de mercado (Poupança e CDI), estimar o impacto da inflação
+                (IPCA) e do Imposto de Renda, apresentando gráficos dinâmicos e tabela de evolução detalhada.
+              </p>
+              <div class="project-techs">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/joaovianaosorio/simulador-juros" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-secondary">
+                  <i class="fab fa-github"></i> Repositório
+                </a>
+                <a href="https://joaovianaosorio.github.io/simulador-juros/" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-primary">
+                  <i class="fas fa-external-link-alt"></i> Deploy Ao Vivo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 3 -->
+          <article class="project-card reveal reveal-delay-2">
+            <div class="project-image-wrapper">
+              <img src="assets/images/projects/projeto-3.png" alt="Mockup do Projeto Data Structure Visualizer"
+                class="project-image">
+              <span class="project-status-badge concluido">Concluído</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Website Institucional - JM Soluções Protéticas</h3>
+              <p class="project-description">
+                Aplicação web institucional desenvolvida com a metodologia Mobile First, garantindo excelente navegação
+                e performance em dispositivos móveis para dentistas e parceiros. Apresenta o portfólio de próteses,
+                logística de coleta/entrega por região e canal direto de atendimento via WhatsApp.
+              </p>
+              <div class="project-techs">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/joaovianaosorio/site-jm" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-secondary">
+                  <i class="fab fa-github"></i> Repositório
+                </a>
+                <a href="https://joaovianaosorio.github.io/site-jm/" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-primary">
+                  <i class="fas fa-external-link-alt"></i> Deploy Ao Vivo
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. CURRÍCULO PDF SECTION
+         ========================================================================== -->
+    <section id="curriculo" class="section">
+      <div class="container">
+        <div class="curriculum-container reveal">
+          <div class="curriculum-text">
+            <span class="section-subtitle">Documentação Profissional</span>
+            <h3>Currículo Atualizado (PDF)</h3>
+            <p>
+              Faça o download direto do meu currículo completo em formato PDF ou abra-o em uma nova aba do seu navegador
+              para avaliação detalhada de competências e histórico escolar.
+            </p>
+
+            <div class="curriculum-buttons">
+              <a href="assets/pdf/curriculo-joao-osorio.pdf" download="curriculo-joao-osorio.pdf" type="application/pdf" class="btn btn-primary">
+                <i class="fas fa-download"></i> Baixar Currículo PDF
+              </a>
+              <a href="assets/pdf/curriculo-joao-osorio.pdf" target="_blank" rel="noopener noreferrer"
+                type="application/pdf" class="btn btn-secondary">
+                <i class="fas fa-external-link-alt"></i> Abrir em Nova Guia
+              </a>
+            </div>
+          </div>
+
+          <div class="pdf-preview-box">
+            <div class="pdf-icon-badge">
+              <i class="fas fa-file-pdf"></i>
+            </div>
+            <h4>curriculo-joao-osorio.pdf</h4>
+            <p>Formato PDF estático otimizado para avaliação rápida por recrutadores de TI e professores do IFSP.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. CANAIS DE CONTATO SECTION
+         ========================================================================== -->
+    <section id="contato" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Vamos Conversar?</span>
+          <h2 class="section-title">Canais de Contato</h2>
+        </div>
+
+        <div class="contact-grid">
+          <!-- WhatsApp Box -->
+          <div class="whatsapp-box reveal reveal-delay-1">
+            <div class="whatsapp-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <h3>Contato Direto via WhatsApp</h3>
+            <p>
+              Clique no botão abaixo para iniciar uma conversa rápida comigo no WhatsApp com mensagem preenchida.
+            </p>
+            <a href="https://wa.me/5511995957707?text=Ol%C3%A1%20Jo%C3%A3o%2C%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade%20de%20est%C3%A1gio!"
+              target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <i class="fab fa-whatsapp"></i> Mandar Mensagem no WhatsApp
+            </a>
+          </div>
+
+          <!-- E-mail & Links Sociais -->
+          <div class="contact-card reveal reveal-delay-2">
+            <div>
+              <h3 class="card-title"><i class="fas fa-envelope gradient-text"></i> Outras Formas de Contato</h3>
+              <div class="contact-info-list">
+                <div class="contact-info-item">
+                  <div class="contact-info-icon"><i class="fas fa-at"></i></div>
+                  <div class="contact-info-text">
+                    <strong>E-mail Profissional</strong>
+                    <a href="mailto:joao.estagio.ifsp@gmail.com">joaovianaosorio@gmail.com</a>
+                  </div>
+                </div>
+
+                <div class="contact-info-item">
+                  <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                  <div class="contact-info-text">
+                    <strong>Localização</strong>
+                    <span>São Paulo — SP, Brasil</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4 style="font-size: 0.95rem; margin-bottom: 0.75rem; color: var(--text-secondary);">Redes Profissionais
+              </h4>
+              <div class="social-links">
+                <a href="https://github.com/joaovianaosorio" target="_blank" rel="noopener noreferrer"
+                  class="social-link" aria-label="Perfil no GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/joao-vitor-viana-osorio/" target="_blank" rel="noopener noreferrer"
+                  class="social-link" aria-label="Perfil no LinkedIn">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="footer-copy">
+        &copy; 2026 João Vitor Osório - Portfólio Pessoal.
+      </p>
+
+      <a href="#hero" class="back-to-top">
+        <i class="fas fa-arrow-up"></i> Voltar ao Topo
+      </a>
+    </div>
+  </footer>
+
+  <!-- Scripts JavaScript ES6+ Puro -->
+  <script src="script/main.js"></script>
+</body>
+
+</html>
