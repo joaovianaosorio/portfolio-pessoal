@@ -1,9 +1,5 @@
 # Portfólio para fins profissionais
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=B39DDB&height=150&section=header&text=Bem-vindo(a)%20ao%20meu%20perfil!&fontSize=30&animation=fadeIn&fontColor=ffffff" width="100%" alt="Header" />
-</p>
-
 - 🎓 **Estudante de Análise e Desenvolvimento de Sistemas** no IFSP.
 - 🚀 **Buscando oportunidades de Estágio em Tecnologia** (com foco em Desenvolvimento Web/Full-Stack, Análise de Dados e Soluções com Inteligência Artificial).
 - 💡 Apaixonado por transformar ideias em código limpo, automação de processos e análise de dados para gerar valor real.
